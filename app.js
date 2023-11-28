@@ -24,8 +24,8 @@ const SHOW_CENTER_DOT = false; // show or hide ships center dot
 const TEXT_FADE_TIME = 2.5; //text fade time in seconds
 const TEXT_SIZE = 40; //text font height in pixels
 const SAVE_KEY_SCORE = 'highscore'; //save key for local storage of high score
-const SOUND_ON = false; //
-const MUSIC_ON = false; //
+const SOUND_ON = true; //
+const MUSIC_ON = true; //
 
 /** @type {HTMLCanvasElement} */
 var canv = document.getElementById('gameCanvas');
